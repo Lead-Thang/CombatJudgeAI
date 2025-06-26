@@ -1,0 +1,23 @@
+// Project Structure
+/CombatJudge-UFC-Fight-Judge-Merge
+  /src
+    /components
+      /layout           // From CombatJudge (Navbar, Footer)
+      /fighters         // From CombatJudge (FighterCard, FighterDetails)
+      /historical       // From CombatJudge (HistoricalMatchCard, HistoricalMatchDetails)
+      /ai-analysis      // Existing UFC Fight Judge analysis components
+      /live             // Keep if needed for video player
+    /pages
+      HomePage.tsx      // From CombatJudge (enhanced with AI features)
+      LiveAnalysisPage.tsx // From CombatJudge (with UFC Fight Judge integration)
+      FighterProfilesPage.tsx // From CombatJudge
+      HistoricalMatchesPage.tsx // From CombatJudge
+      AdminPage.tsx     // From CombatJudge
+    /services
+      ai
+        FightAnalysisService.ts // From UFC Fight Judge
+    App.tsx             // New combined App component
+    index.css           // From CombatJudge
+  package.json          // Updated with both projects' dependencies
+  vite.config.ts        // From CombatJudge
+  tsconfig.json         // From CombatJudge
