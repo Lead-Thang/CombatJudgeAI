@@ -1,0 +1,4 @@
+{
+  // ... existing package.json content ...
+  "proxy": "http://localhost:5000",
+}
