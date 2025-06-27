@@ -1,0 +1,8 @@
+# Track specific file types with Git LFS
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.weights filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+
+# Additional file types can be added here if needed
+# *.additional_extension filter=lfs diff=lfs merge=lfs -text

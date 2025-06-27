@@ -1,0 +1,9 @@
+# 进入子模块目录并提交更改
+cd ufj-web
+git add .
+git commit -m "Update submodule content"
+cd ..
+
+# 将子模块的更改提交到主仓库
+git add ufj-web
+git commit -m "Update ufj-web submodule"
